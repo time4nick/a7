@@ -1,16 +1,9 @@
-/* #13 */
-#nav-bar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-}
-
-/* #14 */
-@media screen and (minwidth:760px) {
-    #about {
-        color: blue;
+@media screen and (min-width:776px) {
+    #navbar {
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
     }
 }
