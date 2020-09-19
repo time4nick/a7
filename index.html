@@ -4,51 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
-    <title>tribute</title>
+    <title>landing</title>
 </head>
 
 <body>
     <!-- #1 -->
-    <h1 id="title">a tribute to the a7d</h1>
-    <!-- #2 -->
-    <p id="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et eius debitis aspernatur asperiores
-        consequatur voluptas! Porro animi magni dolore magnam.</p>
-    <!-- #3 -->
-    <form id="survey-form">
-        <!-- #4 -->
-        <label id="name-label" for="name">name</label>
-        <input type="text" id="name" placeholder="name" name="name" required>
-        <!-- #5 -->
-        <label id="email-label" for="email">email</label>
-        <input type="email" id="email" placeholder="your email" name="email">
-        <!-- #6 -->
-        <label id="number-label" for="number">phone</label>
-        <input type="number" id="number" placeholder="your phone" name="number" min="1" max="9">
-        <!-- #12 -->
-        <label for="water">choose your water</label>
-        <select name="drop" id="dropdown">
-            <option value="water">water</option>
-            <option value="minwater">mineral water</option>
-            <option value="steam">steam</option>
-        </select>
-        <!-- #13 -->
-        <input type="radio" name="veg" value="asparagus">
-        <label for="asparagus">asparagus</label><br>
-        <input type="radio" name="veg" value="beets">
-        <label for="beets">beets</label><br>
-        <!-- #14 -->
-        <input type="checkbox" name="v1" value="bike">
-        <label for="v1">i have a bike</label>
-        <input type="checkbox" name="v2" value="car">
-        <label for="v2">i have a car</label>
-        <!-- #15 -->
-        <textarea name="message" rows="10"></textarea>
-        <!-- #16 -->
-        <button type="submit" id="submit">
-            submit here
-        </button>
+    <header id="header">
+        <!-- #2 -->
+        <img src="./48905b7b-d315-4664-8e87-ef15f9af1c23_200x200.png" alt="co logo" id="header-img">
+        <!-- #3 -->
+        <nav id="nav-bar">
+            <ul>
+                <li>
+                    <!-- #4 -->
+                    <a href="#about" class="nav-link">about us</a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-link">contact us</a>
+                </li>
+                <li>
+                    <a href="#products" class="nav-link">our products</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <a id="about"></a>
+    <img src="./071030-F-1234S-017.jpg" alt="">
+    <a id="contact"></a>
+    <!-- #7 -->
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <!-- #8 9 10 -->
+        <input type="email" name="email" id="email" placeholder="your email" required>
+        <input type="submit" id="submit" value="submit">
     </form>
+
+    <a id="products"></a>
+    <!-- #6 -->
+    <video src="./food.mp4" id="video" width="320" autoplay>your browser dows not support video</video>
+
 </body>
 
 </html>
